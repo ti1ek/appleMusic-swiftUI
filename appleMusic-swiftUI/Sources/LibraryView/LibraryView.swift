@@ -31,6 +31,7 @@ struct LibraryView: View {
             }
             ZStack(alignment: .bottom) {
                 SearchMainScreen()
+                MusicPlayerView(animation: animation, expand: $expand)
             }
             .tabItem {
                 Image(systemName: Strings.Tabbar.tabBarItemRigth)
