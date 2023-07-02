@@ -92,7 +92,7 @@ struct MusicPlayerView: View {
                     .padding()
                 
                 BottomButtonMedia()
-                    .padding(.bottom, safeArea?.bottom == 0 ? 60 : safeArea?.bottom)
+                    .padding(.bottom, safeArea?.bottom == 0 ? 100 : safeArea?.bottom)
             }
             .frame(height: expand ? nil : 0)
             .opacity(expand ? 1 : 0)

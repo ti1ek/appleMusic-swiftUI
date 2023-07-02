@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BlurViewAllScreen: UIViewRepresentable {
     func makeUIView(context: Context) -> UIVisualEffectView {
-        let view = UIVisualEffectView(effect: UIBlurEffect(style: .systemChromeMaterialDark))
+        let view = UIVisualEffectView(effect: UIBlurEffect(style: .systemThickMaterialDark))
         return view
     }
     
