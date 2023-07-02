@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SearchView.swift
 //  appleMusic-swiftUI
 //
 //  Created by ti1ek on 02.07.2023.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SearchMainScreen: View {
     var body: some View {
-        LibraryView()
+        Text("")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SearchMainScreen_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SearchMainScreen()
     }
 }
