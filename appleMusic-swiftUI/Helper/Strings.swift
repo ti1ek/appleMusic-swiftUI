@@ -35,6 +35,11 @@ enum Strings {
         static let selectedImage = "checkmark.circle.fill"
     }
     
+    enum RadioSmallSections {
+        static let secondSectionText = "Вы недавно слушали"
+        static let thirdSectionText = "Популярная музыка"
+    }
+    
     enum NavigationTitles {
         static let radioScreenTitles = "Radio"
         static let searchScreenTitles = "Поиск"
@@ -55,5 +60,11 @@ enum Strings {
         static let leftIconVolume = "speaker.fill"
         static let rightIconVolume = "speaker.wave.2.fill"
     }
+    enum Headers {
+        static let headerSearch = "Поиск по категориям"
+    }
     
+    enum Placeholders {
+        static let searchBar = "Артисты, песни, тексты и др."
+    }
 }
