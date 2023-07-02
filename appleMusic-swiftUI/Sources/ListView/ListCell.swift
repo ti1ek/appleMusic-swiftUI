@@ -30,7 +30,7 @@ struct ListCell: View {
             }
             Image(systemName: model.icon)
                 .foregroundColor(.pink)
-            Text(model.name)
+            //Text(model.name)
         }
     }
     

@@ -23,6 +23,7 @@ struct LibraryView: View {
             }
             ZStack(alignment: .bottom) {
                 RadioMainScreen()
+                MusicPlayerView(animation: animation, expand: $expand)
             }
             .tabItem {
                 Image(systemName: Strings.Tabbar.tabBarItemMiddle)
