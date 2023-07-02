@@ -9,13 +9,14 @@ import Foundation
 
 enum Strings {
     enum Tabbar {
-        static let tabBarItemLeft = "square.stack.fill"
+        static let tabBarItemLeft = "square.stack"
         static let tabBarItemMiddle = "dot.radiowaves.left.and.right"
         static let tabBarItemRigth = "magnifyingglass"
         
         static let tabBarLeftName = "Медиатека"
         static let tabBarMiddleName = "Радио"
         static let tabBarRigthName = "Поиск"
+        static let tabBarUiKitSearch = "UiKit"
     }
     
     enum MusicLabel {
@@ -47,7 +48,7 @@ enum Strings {
     }
     
     enum MusicPlayerAllScreen {
-        static let photoSinger = "20"
+        static let photoSinger = "weeknd"
         static let nameComposition = "The Weekend, Daf Punk"
         static let infoAboutTrack = "ellipsis.circle.fill"
         

@@ -1,5 +1,5 @@
 //
-//  SearchView.swift
+//  SearchMainView.swift
 //  appleMusic-swiftUI
 //
 //  Created by ti1ek on 02.07.2023.
