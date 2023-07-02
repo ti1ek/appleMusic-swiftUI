@@ -23,6 +23,7 @@ struct RadioMainScreen: View {
         }
     }
 }
+
 struct RadioMainScreen_Previews: PreviewProvider {
     static var previews: some View {
         RadioMainScreen()

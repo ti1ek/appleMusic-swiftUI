@@ -9,11 +9,16 @@ import SwiftUI
 
 struct SearchMainScreen: View {
     var body: some View {
-        Text("")
+        NavigationView {
+            ZStack(alignment: .bottom) {
+                SearchScreen()
+            }
+            .padding(.bottom, 90)
+        }
     }
 }
 
-struct SearchMainScreen_Previews: PreviewProvider {
+struct Search_Previews: PreviewProvider {
     static var previews: some View {
         SearchMainScreen()
     }
